@@ -12,14 +12,14 @@ const FloatingActionButton = ({onPress}) => {
 
 const styles = StyleSheet.create({
   container: {
+      position:'absolute',
+    bottom:30,
+      right:30,
     backgroundColor: 'lightgreen',
     width: 56,
     height: 56,
     borderRadius: 28,
-    alignSelf: 'flex-end',
-    marginRight: 16,
-    marginBottom: 16,
-    alignItems: 'center',
+        alignItems: 'center',
     justifyContent: 'center',
     shadowColor: 'red',
     shadowOffset: {
